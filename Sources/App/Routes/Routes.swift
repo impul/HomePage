@@ -1,5 +1,6 @@
 import Vapor
 import Foundation
+import Dispatch
 
 let room = Room()
 
