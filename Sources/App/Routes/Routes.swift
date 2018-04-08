@@ -4,7 +4,7 @@ import Dispatch
 
 extension Droplet {
     func setupRoutes() throws {
-        get("") { req in
+        get("") { _ in
            return try self.view.make("HomePage/index.html")
         }
         
