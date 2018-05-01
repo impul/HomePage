@@ -9,6 +9,7 @@ extension Droplet {
         }
         
         get("blog") { _ in
+            self.log.info("Blog page request")
             return try self.view.make("HomePage/blog.html")
         }
         
