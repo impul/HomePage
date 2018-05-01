@@ -8,6 +8,10 @@ extension Droplet {
            return try self.view.make("HomePage/index.html")
         }
         
+        get("blog") { _ in
+            return try self.view.make("HomePage/blog.html")
+        }
+        
         socket("ws") { req, ws in
             print("New WebSocket connected: \(ws)")
             
@@ -21,8 +25,6 @@ extension Droplet {
             
             ws.onText = { ws, text in
                 print("Text received: \(text)")
-                
-                // reverse the characters and send back
                 let rev = String(text.reversed())
                 try ws.send(rev)
             }

@@ -47,6 +47,15 @@
         }
       },
       {
+        "package": "Crypto",
+        "repositoryURL": "https://github.com/impul/CryptoAES",
+        "state": {
+          "branch": null,
+          "revision": "f97e000cf03efe1c6856f7a18ed99989950049d3",
+          "version": "1.0.4"
+        }
+      },
+      {
         "package": "CTLS",
         "repositoryURL": "https://github.com/vapor/ctls.git",
         "state": {
@@ -105,8 +114,8 @@
         "repositoryURL": "https://github.com/vapor/multipart.git",
         "state": {
           "branch": null,
-          "revision": "17c2bf072ae1698aa7d6c96472ff9b4a970c1816",
-          "version": "2.2.0"
+          "revision": "1d98ad2205d0620fe2801048f76420572281e6e8",
+          "version": "2.2.1"
         }
       },
       {
@@ -141,8 +150,8 @@
         "repositoryURL": "https://github.com/vapor/sockets.git",
         "state": {
           "branch": null,
-          "revision": "a77816695630a44d5d1393fc71eac37ac3d082ca",
-          "version": "2.2.2"
+          "revision": "79fc180cdcb451dbbb01b1156be36720adde80e0",
+          "version": "2.2.3"
         }
       },
       {
