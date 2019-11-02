@@ -8,6 +8,10 @@ extension Droplet {
            return try self.view.make("HomePage/index.html")
         }
         
+        get("terms") { _ in
+              return try self.view.make("HomePage/terms.html")
+           }
+        
         get("blog") { _ in
             self.log.info("Blog page request")
             return try self.view.make("HomePage/blog.html")
